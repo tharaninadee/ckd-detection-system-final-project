@@ -1,0 +1,94 @@
+
+
+/* Apply Poppins font to the entire app */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Green Theme Colors */
+:root {
+  --primary-green: #6f42c1 ;/* A vibrant green */
+  --secondary-green: #218838; /* A darker green for hover states */
+  --light-green: #d4edda; /* A light green for backgrounds */
+  --dark-green: #155724; /* A dark green for text or accents */
+  --white: #ffffff; /* White for contrast */
+  --black: #000000; /* Black for text */
+}
+
+/* Header Styles */
+.header {
+  background-color: var(--primary-green);
+  color: var(--white);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-green);
+  border-color: var(--secondary-green);
+}
+
+/* Link Styles */
+a {
+  color: var(--primary-green);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: var(--secondary-green);
+  text-decoration: underline;
+}
+
+/* Card Styles */
+.card {
+  border: 1px solid var(--light-green);
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Accordion Styles */
+.accordion-button {
+  background-color: var(--light-green);
+  color: var(--dark-green);
+  font-weight: 500;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--primary-green);
+  color: var(--white);
+}
+
+.accordion-body {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+/* Utility Classes */
+.text-green {
+  color: var(--primary-green);
+}
+
+.bg-green {
+  background-color: var(--primary-green);
+}
+
+.bg-light-green {
+  background-color: var(--light-green);
+}
